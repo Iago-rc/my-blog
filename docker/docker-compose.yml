@@ -1,0 +1,14 @@
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: ./docker/php/Dockerfile
+    container_name: mi-app-dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../:/app
+    stdin_open: true
+    tty: true
+
