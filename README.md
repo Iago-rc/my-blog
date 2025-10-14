@@ -15,7 +15,7 @@ Author: Iago Rodríguez Correia
 ## Structure
 
 # The project is built on a docker container
-folder: ../docker/docker-compose.yml
+folder: docker/docker-compose.yml
 
 # We have two accessible routes in the controllers (2 sections)
 /posts
