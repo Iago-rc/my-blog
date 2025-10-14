@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+rest_post:
+    resource: "routes/PostRest.yaml"
+    prefix: /api/posts
+    requirements:
+        api_version: \d+
+    defaults:
+        api_version: 1

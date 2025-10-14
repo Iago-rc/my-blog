@@ -1,0 +1,32 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.0",
+        "@symfony/webpack-encore": "^5.0.0",
+        "core-js": "^3.38.0",
+        "regenerator-runtime": "^0.13.9",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^5.1.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "name": "my_blog",
+    "version": "1.0.0",
+    "description": "| Item               | Technology            \r | ------------------ | ------------------   |\r | Platform           | Docker version 27.2.0|\r | Language           | PHP 8.2.29           |\r | PHP Framework      | Symfony 7.3.4        |\r | Npm                | 2.15.8       |",
+    "main": "webpack.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": [],
+    "author": "",
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.8"
+    }
+}

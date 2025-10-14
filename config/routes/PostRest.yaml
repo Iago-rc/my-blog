@@ -1,0 +1,22 @@
+posts_create:
+  path: /
+  defaults:
+    _controller: App\Controller\PostRestController::createPostAction
+    _format: json
+  methods: [POST]
+
+posts_show:
+  path: /
+  defaults:
+    _controller: App\Controller\PostRestController::showPostsAction
+  methods: [GET]
+
+posts_search:
+  path: /{id}
+  requirements:
+    id: "[A-Za-z0-9-]+"
+  defaults:
+    _controller: App\Controller\PostRestController::searchPostAction
+    id: null
+  methods: [GET]
+
