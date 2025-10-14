@@ -14,4 +14,4 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 COPY . .
 
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "my_blog/public"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
